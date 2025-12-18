@@ -1,0 +1,13 @@
+dist/
+dist-*/
+dist-newstyle/
+cabal.project.local*
+*.hi
+*.o
+*.dyn_o
+*.dyn_hi
+*.swp
+*.swo
+*.tmp
+.ghc.environment.*
+/scripts/__pycache__/
