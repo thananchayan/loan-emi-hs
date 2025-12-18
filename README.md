@@ -41,11 +41,19 @@ cabal v2-repl
 ```
 === Loan Eligibility & EMI Calculator (Haskell) ===
 
+Select an option:
+  1. Evaluate a new loan application
+  2. Run the parallel scenario demo
+  3. Exit
+Enter choice (1/2/3): 1
+
+-- Applicant Details --
 Monthly income: 185000
 Monthly expenses: 55000
 Existing monthly EMIs (0 if none): 10000
 Credit band (Good/Average/Poor): Good
 
+-- Loan Details --
 Loan amount requested: 3500000
 Annual interest rate (%): 8.5
 Tenure (months): 240
@@ -61,7 +69,7 @@ Disposable (post):89545.31
 Debt-to-income:   21.9%
 ```
 
-After the single applicant flow the program can optionally run the parallel scenario demo; look for the multiline output that lists four pre-defined profiles processed simultaneously.
+Return to the menu (press Enter) and choose option 2 any time to run the parallel scenario demo; it prints the four pre-defined profiles processed simultaneously.
 
 ## FP Concepts Demonstrated
 
