@@ -4,10 +4,10 @@ Small-but-complete functional program that scores an applicant's loan request, p
 
 ## Group Members
 
-- Thavamohan Thananchayan (Team Lead)
-- Member 2 – update with actual name
-- Member 3 – update with actual name
-- Member 4 – update with actual name
+- EG/2020/4227 Thananchayan T.
+- EG/2020/4023 Kithurshika K.
+- EG/2020/4098 Nevaashahan T.
+- EG/2020/4216 Shathursan R.
 
 ## Problem Description
 
@@ -50,7 +50,7 @@ Loan amount requested: 3500000
 Annual interest rate (%): 8.5
 Tenure (months): 240
 
-✅ Decision: APPROVED
+Decision: APPROVED
 
 --- EMI & Affordability Summary ---
 Monthly EMI:      30454.69

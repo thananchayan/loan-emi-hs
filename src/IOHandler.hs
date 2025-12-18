@@ -56,9 +56,9 @@ askYesNo msg = do
     normalize = map toLower . filter (not . isSpace)
 
 printDecision :: Decision -> IO ()
-printDecision Approved = putStrLn "\n✅ Decision: APPROVED"
+printDecision Approved = putStrLn "\nDecision: APPROVED"
 printDecision (Rejected rs) = do
-  putStrLn "\n❌ Decision: REJECTED"
+  putStrLn "\nDecision: REJECTED"
   putStrLn "Reasons:"
   mapM_ (\r -> putStrLn ("- " ++ r)) rs
 
@@ -139,9 +139,9 @@ printScenarioEvaluation eval = do
             ++ " | rate " ++ show (round2 (annualRate req)) ++ "% | tenure "
             ++ show (tenureMonths req) ++ " months")
   case evaluationDecision eval of
-    Approved -> putStrLn " Result: ✅ APPROVED"
+    Approved -> putStrLn " Result: APPROVED"
     Rejected reasons -> do
-      putStrLn " Result: ❌ REJECTED"
+      putStrLn " Result: REJECTED"
       mapM_ (\r -> putStrLn ("  - " ++ r)) reasons
   maybe (putStrLn " Metrics unavailable due to invalid inputs.")
         (printMetricsWithPrefix " ") (evaluationMetrics eval)
