@@ -1,6 +1,6 @@
 # Loan Eligibility & EMI Calculator (Haskell)
 
-Small-but-complete functional program that scores an applicant's loan request, prints EMI/affordability metrics, and showcases parallel evaluation of multiple scenarios.
+Complete functional program that scores an applicant's loan request, prints EMI/affordability metrics, and showcases parallel evaluation of multiple scenarios.
 
 ## Group Members
 
@@ -88,16 +88,5 @@ src/Processing.hs        -- Pure business logic, validations, and parallel evalu
 src/IOHandler.hs         -- CLI + printing helpers
 src/Utils.hs             -- Parsers & rounding helpers
 scripts/generate_report.py
-report.pdf               -- 3–4 page technical write-up generated from the script
 ```
 
-## Technical Report
-
-Regenerate `report.pdf` whenever textual updates are needed:
-
-```bash
-# Requires Python 3 + reportlab (`pip install reportlab`)
-python3 scripts/generate_report.py
-```
-
-Make sure the placeholders for the remaining group members are updated in both this README and `report.pdf` before final submission.
